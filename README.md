@@ -1,2 +1,2 @@
-# SpeechAwsemisation
+# SpeechAwesomisation
 Speech Gen 
