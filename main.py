@@ -9,8 +9,6 @@ def app():
     st.markdown(f'<h1 style="color:#157145;font-size:32px;">{"Welcome to Speech Awesomisation:"}</h1>', unsafe_allow_html=True)
     st.sidebar.markdown(f'<h1 style="color:#157145;font-size:24px;">{"Enter your OpenAI API key to get started!"}</h1>', unsafe_allow_html=True)
     api_key = st.sidebar.text_input("APIkey:", type="password", placeholder="sk-ExaMpleaPiKeY")
-    #cache
-    @st.cache
 
     def process_prompt(input):
 

@@ -1,6 +1,6 @@
 import openai
 
-speech = """Generate a speech from the given text:
+speech = """
 {input}
 
 
@@ -21,11 +21,11 @@ class OpenAIModel:
         # arguments to send the API
         kwargs = {
             "temperature": 0.6,
-            "max_tokens": 800,
+            "max_tokens": 1000,
             "best_of": 1,
             "top_p": 1,
             "frequency_penalty": 0.5,
-            "presence_penalty": 0,
+            "presence_penalty": 0.3,
             "stop": ["***"],
         }
 
